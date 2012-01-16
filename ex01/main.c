@@ -1,7 +1,10 @@
 #include <HsFFI.h>
+
 #ifdef __GLASGOW_HASKELL__
-#include "fibo_stub.h"
-extern void __stginit_Safe(void);
+
+	#include "fibo_stub.h"
+	extern void __stginit_Safe(void);
+
 #endif
 
 #include <stdio.h>
